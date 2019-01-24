@@ -7,6 +7,6 @@ contract Call_Value {
     }
     
     function test_call_value() public {
-        address(this).call.value(msg.value)();
+        address(this).call.value(10000)();
     }
 }
